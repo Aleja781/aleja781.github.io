@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.Box{
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+    background-color: #FF8EDF80;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    overflow-y: auto;
+}
+
+#Input{
+    margin-left:90px ;
+    padding: 0;
+    background: none;
+    border: 3px solid #FF8EDF80;
+    border-radius: 15px;
+    outline: none;
+    height: 50px;
+    width: 600px;
+    color: blueviolet;
+}
+
+#button{
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    border:none;
+    outline: none;
+    width: 60px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#button:hover{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 36, 255);
+    color: white;
+    border:none;
+    outline: none;
+    width: 60px;
+    height: 30px;
+}
+
+.Bar{
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bot{
+    color: white;
+    font-size: 20px;
+    background-color: #A200FF80;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+.User{
+    color: white;
+    font-size: 20px;
+    background-color: #CE7AFF80;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
